@@ -1,0 +1,68 @@
+/*
+p{
+    color: rgb(197, 13, 13);
+}
+
+p.pertama{
+    color: rgb(206, 10, 10);
+}
+
+.kedua.feedback{
+    color: burlywood;
+    border: 3px solid  rgb(7, 150, 233);
+}
+
+p.ketiga{
+    color: cornflowerblue;
+}
+
+.div
+{
+    color: rgb(96, 236, 15);
+}
+*/
+
+
+#top-anjay
+{
+    background-color:orange;
+}
+
+div p {
+    color: rgb(3, 94, 44);
+}
+
+div .ketiga{
+    color: blue;
+}
+
+a[href]{
+    font-size:  30px;
+    text-decoration: orange;
+    text-transform: uppercase;
+    background-color: rgb(46, 26, 26);
+}
+
+a[href*="google"]{
+    background-color: lime;
+}
+
+a[href$="ac.id"]{
+    background-color: maroon;
+
+}
+
+
+h1:hover{
+    color: mediumslateblue;
+    background-color: black;
+}
+
+p::selection{
+    background-color: blueviolet;
+    color: chocolate;
+}
+
+a::before{
+    content:"Link -";
+}
