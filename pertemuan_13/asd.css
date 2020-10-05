@@ -1,0 +1,34 @@
+body{
+    background-color: lightslategray;
+}
+
+
+div.box1{
+    padding: 0px 0px 0px 0px;
+}
+div.box2{
+    padding: 0px 0px 0px 180px;
+}
+div.box3{
+    padding: 0px 0px 0px 360px;
+}
+
+
+
+
+
+
+img{
+    display: block;
+
+    background-color: red;
+    padding: 20px 20px 20px 20px;
+
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+
+    margin: 0px;
+}
+
+
