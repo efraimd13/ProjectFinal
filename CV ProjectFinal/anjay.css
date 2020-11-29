@@ -1,0 +1,104 @@
+@font-face {
+    font-family: san_regular;
+    src: url(Regular.ttf);
+}
+
+@font-face {
+    font-family: san_boldi;
+    src: url(BoldI.ttf);
+}
+
+@font-face {
+    font-family: san_italic;
+    src: url(Italic.ttf);
+}
+
+@font-face {
+    font-family: san_bold;
+    src: url(Bold.ttf);
+}
+
+html{
+    background: rgb(141, 145, 145)
+}
+
+.header{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-image: url(https://i.gifer.com/3qQp.gif)
+}
+
+nav{
+    background: rgb(61, 54, 52);
+    height: 22px;
+    font-family: 'san_bold';
+    font-size: 1rem;
+}
+
+a[href]{
+    color: rgb(254, 255, 254);
+}
+
+.anjay1 {
+    font-family: 'san_boldi';
+}
+
+body {
+    font-family: 'san_regular';
+}
+
+.hanjay {
+    background: #535358;
+    padding: 10px;
+    color: white;
+    font-family: 'san_italic';
+    font-size: 1.5rem;
+}
+
+.progress-bar{
+    background: #000002;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+}
+
+.progress{
+        background: rgb(255, 251, 251);
+        height: 10px;
+        width: 80px;
+}
+
+.progress2{
+    background: rgb(255, 251, 251);
+    height: 10px;
+    width: 50px;
+}
+
+.progress3{
+    background: rgb(255, 251, 251);
+    height: 10px;
+    width: 85px;
+}
+
+.progress4{
+    background: rgb(255, 251, 251);
+    height: 10px;
+    width: 67px;
+}
+
+
+.gifs {
+    background-color: teal;
+}
+
+hr {
+    background-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+
+

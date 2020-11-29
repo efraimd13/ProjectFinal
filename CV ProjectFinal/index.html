@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Class</title>
+    <link rel="stylesheet" href="anjay.css">
+
+    
+</head>
+<body>
+  
+  <div class="header">
+    <table cellspacing="20">
+        <tr>
+          <td>
+            <img id="image" src="circle-cropped.png" alt="profile-picture" width="200" />
+          </td>
+          <td>
+        <h2 class="anjay1">Dahlan, Efraim Ariel Riva</h2>
+        <hr >
+        <h4>Mahasiswa UNKLAB</h4>
+            <p>
+              Jl.Pasiwuren, Kakaskasen, Tomohon Utara
+              <br />
+              Email: <em>s21910044@unklab.ac.id</em>
+              <br />
+              Nomor : 08218703****
+            </p>
+          </td>
+        </tr>
+      </table>
+  </div>
+
+
+      <nav>
+        <a href="">Biography</a>
+        <a href="#edu">  | Educations</a>
+        <a href="#emp">  | Employement</a>
+        <a href="#awa">  | Awards And Honor</a>
+        <a href="#ski">  | Skills</a>
+        <a href="#cont"> | Contact Me</a>
+      </nav>
+      <h1 class="hanjay">Research Interest</h1>
+      <p>
+        Learn about C++, Java, Web Design, etc.
+      </p>
+      
+     
+      <section id="edu">
+       
+        <h1 class="hanjay">Educations</h1>
+        <ol>
+          <li>
+            <p>
+                Mahasiswa di <a href="http://www.unklab.ac.id/">Universitas Klabat</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              Lulusan Siswa di <a href="https://smkkr1tomohon.com/">SMK KRISTEN 1 TOMOHON</a>
+            </p>
+          </li>
+        </ol>
+    
+      </section>
+
+      <section id="emp">
+        <h1 class="hanjay">Employement</h1>
+        <table cellspacing="20">
+          <tr>
+            <td>
+              <strong>E-Sport Player of PUBG at ESTAWOLVES</strong>
+              <br />
+              Gamer
+            </td>
+            <td>
+              Tomohon, Indonesia <br />
+              2019 – Present
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>E-Sport Player of AOV at ThugLifeer</strong>
+              <br />
+              as a Abyssal Laner
+            </td>
+            <td>
+              Tomohon, Indonesia <br />
+              2020 – Present
+            </td>
+          </tr>
+        </li>
+    </ul>
+  </table>
+
+  <section id="awa">
+    
+    <h1 class="hanjay">Awards and Honors</h1>
+    <table>
+      <ul>
+        <li>
+          <strong>The International 2020</strong>
+          <br />
+          Winner of The International 2020 / TI20 with a team OG Esports
+        </li>
+        <br />
+        <li>
+          <strong>ASL League</strong>
+          <br />
+          2nd Place at AOV ASL League 
+        </li>
+      </ul>
+    </table>
+  </section>
+
+
+        <section id="ski">
+            
+            <h1 class="hanjay">Skills</h1>
+            <table cellspacing="20">
+              <tr>
+                <td>
+                  <table cellspacing="10">
+                    <tr>
+                      <td>PUBG</td>
+                      <td>
+                        <div class="progress-bar">
+                          <div class="progress4"></div>
+                         </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>AOV</td>
+                    <td>
+                      <div class="progress-bar">
+                        <div class="progress3"></div>
+                       </div>
+                    </td>
+              </tr>
+            </table>
+            </td>
+              <td>
+                <table cellspacing="10">
+                  <tr>
+                    <td>CS GO</td>
+                    <td>
+                      <div class="progress-bar">
+                        <div class="progress"></div>
+                       </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>DOTA 2</td>
+                    <td>
+                      <div class="progress-bar">
+                        <div class="progress2"></div>
+                       </div>
+                    </td>
+                  </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="cont">
+        <h1 class="hanjay">Contact Me</h1>
+<p>
+    <label for="nama">Your Name  : </label>
+        <input type="text" name="nama" id="nama" required class="gifs"/>
+        <br />
+        <br />
+        <label for="email">Your Email   :</label>
+        <input type="email" name="email" id="email" required class="gifs"/>
+        <br />
+        <br />
+        <label for="pesan">Your Message:</label>
+        <br />
+    <textarea rows="4" cols="50" placeholder="Tulis komentar Anda di sini...." class="gifs">
+    </textarea>
+</p>
+<button onclick="hello()">Sumbit</button>
+
+        </fieldset>
+    </form>
+
+    <section id="tema">
+      <h1 class="hanjay">Tema</h1>
+<p>Pilih Tema</p>
+    <button onclick="defaultT()">Default</button>
+    <button onclick="greenT()">Green</button>
+    <button onclick="orangeT()">Orange</button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
